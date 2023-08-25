@@ -10,7 +10,7 @@ interface ItemProp {
 const Item = ({ item }: { item: ItemProp }) => {
   return (
     <div className='card shadow-xl mx-auto bg-white text-gray-700'>
-      <figure className='px-5 pt-5'>
+      <figure className='px-2 pt-2'>
         <Image
           src={item.image}
           alt={item.item}
