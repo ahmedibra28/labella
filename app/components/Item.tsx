@@ -9,14 +9,15 @@ interface ItemProp {
 }
 const Item = ({ item }: { item: ItemProp }) => {
   return (
-    <div className='card shadow-xl mx-auto bg-white text-gray-700'>
+    <div className='card shadow-xl mx-auto bg-white text-gray-700 h-72'>
       <figure className='px-2 pt-2'>
         <Image
           src={item.image}
           alt={item.item}
-          width={250}
-          height={250}
-          className='rounded-xl w-60 h-60 md:w-60 md:h-60 object-cover'
+          width={200}
+          height={200}
+          className='rounded-xl w-52 h-52 md:w-60 md:h-60 object-cover'
+          quality={100}
         />
       </figure>
       <div className='card-body items-center text-center'>

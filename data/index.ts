@@ -1,385 +1,588 @@
 const data = [
   {
     category: 'Hot drinks',
-    item: 'Machiato',
+    item: 'Macchiato',
     price: 2,
-    image: '283A9856.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9856.jpg',
   },
   {
     category: 'Hot drinks',
     item: 'Camel tea',
     price: 1.5,
-    image: '283A9861.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9861.jpg',
   },
   {
     category: 'Hot drinks',
-    item: 'Coppacino',
+    item: 'Cappuccino',
     price: 1.5,
-    image: '283A0050.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0050.jpg',
   },
   {
     category: 'Hot drinks',
-    item: 'black tea',
+    item: 'Black tea',
     price: 1,
-    image: '283A9865.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9865.jpg',
   },
   {
     category: 'Hot drinks',
-    item: 'caffe lato',
+    item: 'Coffee latte',
     price: 1.5,
-    image: '283A0057.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0057.jpg',
+  },
+  {
+    category: 'Hot drinks',
+    item: 'Dawa Tea',
+    price: 1.5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6483.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Water melon',
     price: 1,
-    image: '283A0009.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0009.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Avocado',
     price: 2,
-    image: '283A0012.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0012.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Beetroot',
+    item: 'Beyturaaf',
     price: 2,
-    image: '283A0022.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0022.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Apple machito',
-    price: 2.5,
-    image: '283A0025.JPG',
+    item: 'Apple mojito',
+    price: 2,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0025.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Feeto qaro',
     price: 2.5,
-    image: '283A0033.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0033.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Orange ',
     price: 2,
-    image: '283A0005.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0005.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Ice coffee',
     price: 3,
-    image: 'IMG_9058.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9058.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Strowbery shake',
+    item: 'Strawberry shake',
     price: 3,
-    image: 'IMG_8977.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8977.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Blueberry',
+    item: 'Classic Mojito',
     price: 2.5,
-    image: 'IMG_9040.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9040.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Limon Iced',
+    item: 'Lemon Iced',
     price: 2.5,
-    image: 'IMG_9047.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9047.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'passion smooth',
+    item: 'Passion smoothie',
     price: 3,
-    image: '283A9894.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9894.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Passion machito',
-    price: 2.5,
-    image: '283A9896.JPG',
-  },
-  {
-    category: 'Cold drinks',
-    item: 'iced coffea late',
+    item: 'Gerry smoorhie',
     price: 3,
-    image: '283A9941.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9896.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Apple smooth',
+    item: 'Iced coffee latte',
     price: 3,
-    image: '283A9924.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9941.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Ice cremal late',
+    item: 'apple smoothie',
     price: 3,
-    image: '283A9924.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9924.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Ice vanilla latea',
+    item: 'Ice caramel latte',
     price: 3,
-    image: '283A9924.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9941.jpg',
+  },
+  {
+    category: 'Cold drinks',
+    item: 'Ice vanilla latte',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9941.jpg',
   },
   {
     category: 'Cold drinks',
     item: 'Mango shake',
     price: 3,
-    image: 'IMG_8982.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8982.jpg',
   },
   {
     category: 'Cold drinks',
-    item: 'Chocolate shake',
+    item: 'Chocolate  shake',
     price: 3,
-    image: 'IMG_8972.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8972.jpg',
   },
   {
-    category: 'Lunch',
-    item: 'SUQAR Geel',
-    price: 5,
-    image: '283A0019.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'stov fish',
-    price: 7,
-    image: '283A9966.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Hilib Ari dhaylo',
-    price: 8,
-    image: '283A9976.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'baasta saldata',
+    category: 'Cold drinks',
+    item: 'Iced Tea ',
     price: 2,
-    image: 'IMG_0058.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6491.jpg',
   },
   {
-    category: 'Lunch',
-    item: 'Maxcicano Fish',
-    price: 8,
-    image: '283A9870.JPG',
+    category: 'Cold drinks',
+    item: 'Passion mojito',
+    price: 2.5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6493.jpg',
   },
   {
-    category: 'Lunch',
-    item: 'Crispy chicken cheese balls',
-    price: 9,
-    image: '283A9885.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Chicken satay',
-    price: 9,
-    image: '283A9895.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Phuket fish',
-    price: 9,
-    image: '283A9940.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Dragon chicken',
-    price: 9,
-    image: 'IMG_8924.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'chilli & chicken',
-    price: 9,
-    image: 'IMG_8943.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Lolly Pop chicken',
-    price: 9,
-    image: 'IMG_8964.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Oriental chicken',
-    price: 9,
-    image: 'IMG_8968.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Mangolian chicken',
-    price: 9,
-    image: 'IMG_8970.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Green Salad',
+    category: 'Cold drinks',
+    item: 'Strawberry mojito',
     price: 3,
-    image: 'IMG_9008.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6504.jpg',
+  },
+  {
+    category: 'Cold drinks',
+    item: 'Cocktail',
+    price: 2.5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6540.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Suqaar',
+    price: 5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0019.jpg',
   },
   {
     category: 'Lunch',
     item: 'Hilib Ido  dheylo',
     price: 10,
-    image: 'IMG_0014.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0014.jpg',
   },
   {
     category: 'Lunch',
-    item: 'Chicken Curry',
+    item: 'Dheylo ',
+    price: 8,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9976.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Camel steak ',
     price: 7,
-    image: 'IMG_0026.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0032.jpg',
   },
   {
     category: 'Lunch',
-    item: ' Camel steak ',
+    item: 'Hilib geel',
     price: 7,
-    image: 'IMG_0032.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0051.jpg',
   },
   {
     category: 'Lunch',
-    item: 'Chicken broast 3 leg',
-    price: 7,
-    image: 'IMG_0037.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Hilib Geel',
-    price: 7,
-    image: 'IMG_0051.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Chicken steak',
-    price: 7,
-    image: 'IMG_0066.JPG',
-  },
-  {
-    category: 'Lunch',
-    item: 'Salad',
+    item: 'Pasta saldata',
     price: 2,
-    image: 'IMG_0070.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0058.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Escalope Fish',
+    price: 7,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9966.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Mexicana Fish',
+    price: 8,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9870.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Phuket fish',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9654.jpg',
   },
   {
     category: 'Lunch',
     item: 'Balat fish',
     price: 8,
-    image: 'IMG_8940.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8940.jpg',
   },
   {
     category: 'Lunch',
     item: 'Grilled fish',
     price: 8,
-    image: 'IMG_8949.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8949.jpg',
   },
   {
     category: 'Lunch',
-    item: 'SHANGHAI FISH',
+    item: 'Shanghai fish',
     price: 8,
-    image: 'IMG_8955.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8955.jpg',
   },
   {
     category: 'Lunch',
-    item: 'SUQAR GEEL',
-    price: 8,
-    image: 'IMG_9985.JPG',
+    item: 'Crispy chicken cheese balls',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9885.jpg',
   },
   {
     category: 'Lunch',
-    item: 'Maxicano chicken',
+    item: 'chicken satay',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9895.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Dragon chicken',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8924.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Chilli & chicken',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8943.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Lolly Pop chicken',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8964.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Oriental chicken',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8968.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Mongolian chicken',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8970.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Mexicana chicken',
     price: 6,
-    image: '283A9874.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9874.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'chicken broast',
+    price: 7,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0037.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'chicken steak',
+    price: 7,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0066.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'chicken curry',
+    price: 7,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_0026.jpg',
   },
   {
     category: 'Lunch',
     item: 'Salad fish',
     price: 4.5,
-    image: '283A9906.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9906.jpg',
   },
   {
     category: 'Lunch',
     item: 'Salad chicken',
     price: 4.5,
-    image: '283A9908.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9908.jpg',
+  },
+  {
+    category: 'Lunch',
+    item: 'Green salad',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9008.jpg',
   },
   {
     category: 'Breakfast',
     item: 'Beer ',
     price: 3,
-    image: '283A9889.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9889.jpg',
   },
   {
     category: 'Breakfast',
-    item: 'Foul medanes',
+    item: 'foul',
     price: 2,
-    image: '283A9900.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9900.jpg',
   },
   {
     category: 'Breakfast',
-    item: 'Shakshuuko',
+    item: 'Shakshuka',
     price: 2.5,
-    image: '283A9912.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9912.jpg',
   },
   {
     category: 'Breakfast',
-    item: 'Omlet toste',
+    item: 'Omelette toast',
     price: 3,
-    image: '283A9914.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9914.jpg',
   },
   {
     category: 'Breakfast',
     item: 'Malawax',
     price: 0.5,
-    image: '283A9918.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9918.jpg',
   },
   {
     category: 'Breakfast',
-    item: 'Omlet ',
+    item: 'Omelette ',
     price: 2,
-    image: '283A9933.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9933.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Fish Sandwich',
+    price: 5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9927.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Chicken Sandwich',
+    price: 5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9927.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Beef Sandwich',
+    price: 5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9927.jpg',
   },
   {
     category: 'Dinner',
     item: 'Salad chicken',
     price: 5,
-    image: '283A9906.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9906.jpg',
   },
   {
     category: 'Dinner',
     item: 'Salad fish',
     price: 5,
-    image: '283A9908.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9908.jpg',
   },
   {
     category: 'Dinner',
-    item: ' Pizza Large',
+    item: 'Large Pizza',
     price: 13,
-    image: '283A9879.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9879.jpg',
   },
   {
     category: 'Dinner',
-    item: 'Fish burger ',
-    price: 4,
-    image: '283A9949.JPG',
+    item: 'Mediam Pizza',
+    price: 10,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9879.jpg',
   },
   {
     category: 'Dinner',
-    item: 'Shuwaarma Fish',
+    item: 'Small Pizza',
+    price: 7,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9879.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Fish Burger',
     price: 4,
-    image: '283A9953.JPG',
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9949.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Chicken Burger',
+    price: 4,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9949.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Beef Burger',
+    price: 4,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9949.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Fish Shawarma',
+    price: 4,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9953.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Chicken Shawarma',
+    price: 4,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9953.jpg',
+  },
+  {
+    category: 'Dinner',
+    item: 'Beef Shawarma',
+    price: 4,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9953.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Basbousa',
+    price: 2.5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6520.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Tiramisu',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6513.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Caramel cake',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6505.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Banana cake',
+    price: 2.5,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6497.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Lotus Cake',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6544.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Small Cake ',
+    price: 15,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Vanilla cake',
+    price: 3,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6519.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Medium cake',
+    price: 25,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.jpg',
+  },
+  {
+    category: 'Sweets',
+    item: 'Donut cake',
+    price: 1,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9035 .jpg',
   },
 ]
-
-const baseUrl = `https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella`
-
 export const getItems = () => {
-  return data.map((item) => ({
-    ...item,
-    image: `${baseUrl}/${item.image}`,
-  }))
+  return data
 }
 
 export const getCategories = () => {
