@@ -39,7 +39,7 @@ const data = [
     item: 'Dawa Tea',
     price: 1.5,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6483.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6483.JPG.png',
   },
   {
     category: 'Cold drinks',
@@ -172,7 +172,7 @@ const data = [
     item: 'Iced Tea ',
     price: 2,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6491.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6491.JPG.png',
   },
   {
     category: 'Cold drinks',
@@ -522,63 +522,63 @@ const data = [
     item: 'Basbousa',
     price: 2.5,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6520.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6520.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Tiramisu',
     price: 3,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6513.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6513.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Caramel cake',
     price: 3,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6505.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6505.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Banana cake',
     price: 2.5,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6497.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6497.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Lotus Cake',
     price: 3,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6544.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6544.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Small Cake ',
     price: 15,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Vanilla cake',
     price: 3,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6519.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6519.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Medium cake',
     price: 25,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A6572.JPG.png',
   },
   {
     category: 'Sweets',
     item: 'Donut cake',
     price: 1,
     image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9035 .png',
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9035.png',
   },
 ]
 export const getItems = () => {

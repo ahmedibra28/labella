@@ -17,7 +17,6 @@ const Item = ({ item }: { item: ItemProp }) => {
           width={500}
           height={500}
           className='rounded-xl w-72 h-72 object-contain'
-          quality={100}
         />
       </figure>
       <div className='card-body items-center text-center py-3 px-2'>
