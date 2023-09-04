@@ -372,8 +372,8 @@ const data = [
   },
   {
     category: 'Lunch',
-    item: 'Green salad',
-    price: 3,
+    item: 'Carrot and cucumber salad',
+    price: 1.5,
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9008.png',
   },
