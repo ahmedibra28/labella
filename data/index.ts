@@ -57,7 +57,7 @@ const data = [
   },
   {
     category: 'Cold drinks',
-    item: 'Beyturaaf',
+    item: 'Beetroof',
     price: 2,
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A0022.png',
