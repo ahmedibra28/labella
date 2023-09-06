@@ -120,7 +120,7 @@ const data = [
   },
   {
     category: 'Cold drinks',
-    item: 'Gerry smoorhie',
+    item: 'Gery smoothie',
     price: 3,
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/283A9896.png',
@@ -302,7 +302,7 @@ const data = [
   },
   {
     category: 'Lunch',
-    item: 'Chilli & chicken',
+    item: 'Chilli chicken',
     price: 9,
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_8943.png',
