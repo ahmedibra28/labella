@@ -580,6 +580,64 @@ const data = [
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/IMG_9035.png',
   },
+  {
+    category: 'Indian Dishes',
+    item: 'Indian biryani chicken',
+    price: 6,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09132.JPG',
+  },
+  {
+    category: 'Indian Dishes',
+    item: 'Taw latza parrots',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09216.JPG',
+  },
+  {
+    category: 'Indian Dishes',
+    item: 'Chicken masala',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09153.JPG',
+  },
+
+  {
+    category: 'Indian Dishes',
+    item: 'Lamb masala goat',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09150.JPG',
+  },
+  {
+    category: 'Indian Dishes',
+    item: 'Kadai chicken masala',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09194.JPG',
+  },
+
+  {
+    category: 'Indian Dishes',
+    item: 'Hyderabadi chicken masala',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09191.JPG',
+  },
+  {
+    category: 'Indian Dishes',
+    item: 'Chicken 65',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09166.JPG',
+  },
+  {
+    category: 'Indian Dishes',
+    item: 'Fish 65',
+    price: 9,
+    image:
+      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09166.JPG',
+  },
 ]
 export const getItems = () => {
   return data
