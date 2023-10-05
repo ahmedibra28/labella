@@ -638,27 +638,27 @@ const data = [
     image:
       'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC09166.JPG',
   },
-  {
-    category: 'Indian Dishes',
-    item: 'La bella fish package',
-    price: 4,
-    image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08362.png',
-  },
-  {
-    category: 'Indian Dishes',
-    item: 'La bella chicken package',
-    price: 4,
-    image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08414.png',
-  },
-  {
-    category: 'Indian Dishes',
-    item: 'La bella meat package',
-    price: 4,
-    image:
-      'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08383.png',
-  },
+  // {
+  //   category: 'Indian Dishes',
+  //   item: 'La bella fish package',
+  //   price: 4,
+  //   image:
+  //     'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08362.png',
+  // },
+  // {
+  //   category: 'Indian Dishes',
+  //   item: 'La bella chicken package',
+  //   price: 4,
+  //   image:
+  //     'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08414.png',
+  // },
+  // {
+  //   category: 'Indian Dishes',
+  //   item: 'La bella meat package',
+  //   price: 4,
+  //   image:
+  //     'https://farshaxan.blr1.cdn.digitaloceanspaces.com/la_bella/DSC08383.png',
+  // },
 ]
 export const getItems = () => {
   return data
