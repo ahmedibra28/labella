@@ -1,24 +1,23 @@
 import React from 'react'
 
-import { getPlaiceholder } from 'plaiceholder'
+// import { getPlaiceholder } from 'plaiceholder'
 import Image from 'next/image'
 
-export async function BlurImage({
+export function BlurImage({
   src,
   alt,
   width,
   height,
+  className,
 }: {
   src: string
   alt: string
   width: number
   height: number
+  className?: string
 }) {
-  const buffer = await fetch(src).then(async (res) =>
-    Buffer.from(await res.arrayBuffer())
-  )
-
-  const { base64 } = await getPlaiceholder(buffer)
+  const base64 =
+    'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAYAAAC09K7GAAAACXBIWXMAAAsTAAALEwEAmpwYAAAALUlEQVR4nGNgYGBg+H9rgd//J6ujQWww+H9pefv/UzO2IQS+vUv7cud4JogDAMgDEhA+9jbyAAAAAElFTkSuQmCC'
 
   return (
     <Image
@@ -28,7 +27,9 @@ export async function BlurImage({
       blurDataURL={base64}
       placeholder='blur'
       alt={alt}
-      className='object-cover'
+      className={`${className}`}
+      quality={100}
+      style={{ objectFit: 'contain' }}
     />
   )
 }

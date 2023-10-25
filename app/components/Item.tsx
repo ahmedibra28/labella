@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import BlurImage from './BlurImage'
 
 interface ItemProp {
   category: string
@@ -11,7 +12,7 @@ const Item = ({ item }: { item: ItemProp }) => {
   return (
     <div className='card shadow-xl mx-auto bg-white text-gray-700 h-72'>
       <figure>
-        <Image
+        <BlurImage
           src={item.image}
           alt={item.item}
           width={500}
