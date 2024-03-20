@@ -30,6 +30,7 @@ export function BlurImage({
       className={`${className}`}
       quality={100}
       style={{ objectFit: 'contain' }}
+      unoptimized
     />
   )
 }
